@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">جعفر محمد الاغا</string>
+
+
+    <string name="custom_post_follow">Follow</string>
+
+    <string name="custom_post_following">Following</string>
+    <string name="custom_post_posts">Posts</string>
+    <string name="custom_post_followers">Follower</string>
+    <string name="custom_post_like">Like</string>
+    <string name="custom_post_share">Share</string>
+    <string name="custom_post_comment">Comment</string>
+    <string-array name="Shapes">
+        <item>العراق</item>
+        <item>فلسطين</item>
+        <item>كربلاء</item>
+        <item>المانيا</item>
+    </string-array>
+
+
+
+    <string-array name="Shapes3">
+        <item>اختر الشكل </item>
+        <item>الدائرة</item>
+        <item>المثلث</item>
+        <item>المستطيل</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+            <Button
+                android:id="@+id/spinar"
+                android:onClick="spinar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spinner || تطبيق الاشكال الهندسية " />
+            <Button
+                android:id="@+id/ridobootton"
+                android:onClick="ridobootton"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RidoBootton" />
+            <Button
+                android:id="@+id/CheckBox"
+                android:onClick="CheckBox"
+                android:text="CheckBox"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/ProgressBar"
+                android:onClick="progressbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="ProgressBar" />
+            <Button
+                android:id="@+id/seekbar"
+                android:onClick="seekbar"
+                android:text="SeekBar"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/RatingBar"
+                android:onClick="RatingBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="RatingBar" />
+            <Button
+                android:id="@+id/ListView"
+                android:onClick="ListView"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ListView" />
+            <Button
+                android:id="@+id/NumberPicker"
+                android:onClick="NumberPicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="NumberPicker" />
+            <Button
+                android:id="@+id/CalendarView"
+                android:onClick="calendarview"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CalendarView(التقويم الميلادي)" />
+            <Button
+                android:id="@+id/explicitintent"
+                android:onClick="explicitintent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الانتقال Explicit intent" />
+            <Button
+                android:id="@+id/explicitintent2"
+                android:onClick="explicitintent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Explicit intentارسال البيانات بين الاكتفتي " />
+            <Button
+                android:id="@+id/btn_call"
+                android:onClick="btn_call"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Implicit intent | (اتصل بنا)الانتقال لبرنامج الاتصال" />
+            <Button
+                android:id="@+id/tamreen"
+                android:onClick="tamreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تمرين عملي على Explicit intent" />
+            <Button
+                android:id="@+id/img_cam"
+                android:onClick="img_cam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Implicit intent | تطبيق التقاط صورة" />
+            <Button
+                android:id="@+id/array_adapter"
+                android:onClick="array_adapter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="ArrayAdapter(ListView)" />
+            <Button
+                android:id="@+id/custom_adapter"
+                android:onClick="custom_adapter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="CustomAdapter تمرين شامل " />
+            <Button
+                android:id="@+id/menu"
+                android:onClick="menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menu_القوائم"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/customtoast"
+                android:onClick="customtoast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Custom Toast" />
+            <Button
+                android:id="@+id/snackbar"
+                android:onClick="snackbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text=" SnackBar" />
+            <Button
+                android:id="@+id/snackbar_with_action"
+                android:onClick="snackbar_with_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="SnackBar مع Action" />
+            <Button
+                android:id="@+id/shared_preferences"
+                android:onClick="shared_preferences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="حفظ البيانات /Shared Preferences" />
+            <Button
+                android:id="@+id/shared_preferences_two"
+                android:onClick="shared_preferences_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="حفظ البيانات /Shared Preferences الطريقة الثانية"/>
+            <Button
+                android:id="@+id/shared_preferences_exercise"
+                android:onClick="shared_preferences_exercise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="حفظ البيانات Shared Preferences/تمرين شامل" />
+            <Button
+                android:id="@+id/internal_storage"
+                android:onClick="internal_storage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="حفظ البيانات /الذاكرة الداخلية Internal storage" />
+            <Button
+                android:id="@+id/External_Storage"
+                android:onClick="External_Storage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="حفظ البيانات /الذاكرة الخارجية External Storage" />
+            <Button
+                android:id="@+id/data_base"
+                android:onClick="data_base"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Database | انشاء قاعدة بيانات وجدول" />
+
+
+
+
+            <Button
+                android:id="@+id/material_design"
+                android:onClick="material_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Material design | تطبيق العناصر على الشاشة" />
+
+
+
+            <Button
+                android:id="@+id/cardview"
+                android:onClick="cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Card view | شرح العنصر" />
+
+
+
+            <Button
+                android:id="@+id/recyclerview"
+                android:onClick="recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="  Recycler View" />
+
+
+
+            <Button
+                android:id="@+id/externaldatabase"
+                android:onClick="externaldatabase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text=" قواعد البيانات الخارجية External Database" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
